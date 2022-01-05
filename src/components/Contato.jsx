@@ -7,7 +7,7 @@ export default function Contato() {
     return (
         <div className="contact" id="contato">
             <div className="left">
-                <img src="../images/mailbg.jpeg" alt="Contact" />
+                <img src="assets/mailbg.jpeg" alt="Contact" />
             </div>
             <div className="right">
                 <h2>Contato</h2>
