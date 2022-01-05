@@ -5,13 +5,13 @@ export default function SideMenu({menuOpen, setMenuOpen}) {
         <div className={"menu " + (menuOpen ? "false" : "active")}>
             <ul onClick={() => setMenuOpen(true)}>
                 <li>
-                    <a href="#intro">Introdução</a>
+                    <a href="#intro"> Introdução </a>
                 </li>
                 <li>
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#portfolio"> Portfolio </a>
                 </li>
                 <li>
-                    <a href="#contato">Contato</a>
+                    <a href="#contato"> Contato </a>
                 </li>
             </ul>
         </div>
