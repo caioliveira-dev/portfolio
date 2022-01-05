@@ -1,0 +1,18 @@
+.introbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .introtxt {
+        text-align: center;
+    }
+    h1 {
+        font-size: 10em;
+    }
+    h2{
+        font-size: 2.5em;
+    }
+    h3 {
+        font-size: 2.5em;   
+    }
+}
