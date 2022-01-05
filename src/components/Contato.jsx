@@ -14,7 +14,7 @@ export default function Contato() {
                 <form action="https://formsubmit.co/mensagensportfolio@gmail.com
 " method="POST">
                     <input type="text" placeholder="E-mail" name="email"/>
-                    <textarea placeholder="Mensagem..." />
+                    <textarea placeholder="Mensagem..." name="message"/>
                     <button type="submit"  onSubmit={handleSubmit}>Enviar</button>
                     <input type="hidden" name="_captcha" value="false"/>
                     <input type="hidden" name="_next" value="https://caioliveira-dev.github.io/portfolio/#contato"/>
